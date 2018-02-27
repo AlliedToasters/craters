@@ -7,4 +7,6 @@ My current proposal is to build a two-step pipeline:
 step 1: Generate crater proposals
 step 2: Classify crater proposals as craters or non-craters
 
-The pipeline will return a set of vetted crater proposals given an input image. Take a look at <a href='https://github.com/AlliedToasters/craters/blob/master/capstone_proposal.ipynb'>the proposal</a>.
+The pipeline will return a set of vetted crater proposals given an input image. Take a look at the proposal:
+
+https://github.com/AlliedToasters/craters/blob/master/capstone_proposal.ipynb
