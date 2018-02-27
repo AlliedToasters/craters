@@ -1,10 +1,10 @@
 CRATER DETECTION PROJECT
 
-The goal of this project is to improve automated crater detection techniques. I plan to use convolutional neural nets with computer vision techniques to address one of, or potentially both, persisting problems in crater surveying software:
+This is my capstone project for the Thinkful data science course. My objective is to apply experimentally successful crater detection algorithms (CDA) into an easy-to-use, extensible CDA python package.
 
-1) Automatic Crater Detection
-2) Crater Proposal Classification (Crater/Not a Crater classification)
+My current proposal is to build a two-step pipeline:
 
-Both of these problems have been explored most recently (2010 and onward) on a particular dataset, found here: https://github.com/ieee8023/CraterDataset
+step 1: Generate crater proposals
+step 2: Classify crater proposals as craters or non-craters
 
-I am currently working on a project proposal that will outline my approach. That proposal will be pushed to this repository when ready.
+The pipeline will return a set of vetted crater proposals given an input image. Take a look at <a href='https://github.com/AlliedToasters/craters/blob/master/capstone_proposal.ipynb'>the proposal</a>.
