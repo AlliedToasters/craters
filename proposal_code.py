@@ -23,14 +23,15 @@ regions = [
     '"East" Region',
 ]
 
+tile_path = './tiles/raw/'
 tiles = {}
 for name in tile_names:
     num = name[4:]
-    tiles[num] = PIL.Image.open(name + 's.pgm')
+    tiles[num] = PIL.Image.open(tile_path + name + 's.pgm')
     
 def plot_tiles(tiles, tile_names, regions):
     """Plots the tiles for demonstration purposes."""
-    fig, axes = plt.subplots(nrows=2, ncols=3, figsize=(12,8))
+    fig, axes = plt.subplots(nrows=2, ncols=3, figsize=(9,6))
     axes = axes.reshape(6,)
     for i, ax in enumerate(axes):
         ax.tick_params(
